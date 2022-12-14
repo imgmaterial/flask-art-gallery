@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <meta charset="UTF-8">
+    <title>Imgmaterial</title>
+</head>
+<div class="header">
+    <div class="header-content">
+        <div class="header-buttons">
+            <a href="{{url_for('show_all')}}" style="text-decoration:none">Gallery</a>
+            <a href="{{url_for('upload')}}" style="text-decoration:none">Upload</a>
+        </div>
+    </div>
+</div>
+<h1>Upload new File</h1>
+<body>
+  <form class="form" method= post enctype=multipart/form-data>
+      <div class="form-control">
+          <label>Select Image:</label>
+          <input type="file" name="file" />
+      </div>
+      <div class="form-control">
+          <input type="submit" value="Upload" />
+      </div>
+  </form>
+</body>

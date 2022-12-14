@@ -1,0 +1,152 @@
+h1 {
+    color: rgb(191, 239, 255);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:48px;
+    font-weight:bold;
+    text-align:center;
+    text-indent:0px;
+    margin: 0 auto;
+    width:800px;
+    margin-bottom:10px;
+  }
+
+body {
+    background-color: #333;
+    color: #fff;
+    font-family: "Helvetica Neue", sans-serif;
+}
+/* Header */
+.header {
+    background-color: #222;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.header-buttons {
+    display: flex;
+}
+
+.header-buttons a {
+    padding: 10px 20px;
+    background-color: #222;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.header-buttons a:hover {
+    background-color: #333;
+}
+
+hr{
+    margin: 20px;
+    border:none;
+    border-top: 1px solid #111;
+    border-bottom: 1px solid #333;
+}
+p{
+    color:#444;
+    text-align:left;
+    font-size:10px;
+    margin-left: 20px;
+    margin-bottom: -10px;
+}
+a{
+    color:#444;
+}
+
+#container{
+    margin: 0 auto;
+    width: 49vw;
+    border:1px solid #333;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    font-family:Verdana, Geneva, sans-serif;
+    text-align:center;
+}
+img{
+    border:5px solid #444;
+    border-radius: 5px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 5px;
+    margin: 15px;
+}
+img:hover{
+    border-color:#555;
+    border-radius: 10px;
+    box-shadow: none;
+    -moz-box-shadow: 0px 0px 15px #111;
+    -webkit-box-shadow: 0px 0px 15px #111;
+}
+
+.zoom-image {
+    transition: transform 0.3s;
+}
+
+.zoom-image:hover {
+    transform: scale(1.2);
+}
+
+.form {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    background-color: #222;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.form h1 {
+    margin: 0;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.form .form-control {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.form .form-control label {
+    width: 150px;
+}
+
+.form .form-control input[type="file"] {
+    padding: 10px;
+    background-color: #222;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.form .form-control input[type="file"]:hover {
+    background-color: #333;
+}
+
+.form .form-control input[type="submit"] {
+    margin-left: auto;
+    padding: 10px 20px;
+    background-color: #222;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;}

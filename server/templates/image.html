@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <meta charset="UTF-8">
+    <title>Imgmaterial</title>
+</head>
+<div class="header">
+    <div class="header-content">
+        <div class="header-buttons">
+            <a href="{{url_for('show_all')}}" style="text-decoration:none">Gallery</a>
+            <a href="{{url_for('upload')}}" style="text-decoration:none">Upload</a>
+        </div>
+    </div>
+</div>
+<body>
+ <center><img src="{{ url_for('static', filename=user_image) }}" alt="Mike" height="512px" width="512px"></center>
+<div id = "container"> "{{ show_tags(img)}}" </div>
+</body>
+</html>

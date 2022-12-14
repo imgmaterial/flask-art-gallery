@@ -1,0 +1,1 @@
+SELECT tag_name FROM object_tag_mapping JOIN INFO ON object_reference = INFO.id JOIN TAGS ON tag_reference = TAGS.id WHERE image_name = "00001.png"
